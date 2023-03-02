@@ -1,5 +1,7 @@
 package com.collections;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * @program: LqSouceCodeForCollection
  * @description: 并发集合concurrentHashmap源码
@@ -9,6 +11,8 @@ package com.collections;
 public class ConcurrentHashMapTest {
 
     public static void main(String[] args) {
-        System.out.println("ss");
+        ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
+        concurrentHashMap.put(null,null);
+
     }
 }
